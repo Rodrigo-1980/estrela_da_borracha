@@ -12,6 +12,18 @@
 }
 
 #img_logo{
-    width:50px;
+    width:25vw;
     background-size: cover;
+}
+
+#menu{
+    display: flex;
+}
+
+#menu ul{
+    list-style-type: none;
+}
+
+#menu ul li a{
+    text-decoration: none;
 }
