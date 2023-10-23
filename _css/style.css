@@ -16,6 +16,10 @@
     background-size: cover;
 }
 
+span#burguer{
+    display: none;
+}
+
 #menu{
     display: flex;
 }
