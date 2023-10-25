@@ -18,7 +18,7 @@
     }
 
     span#burguer{
-        background-color: rgb(41, 41, 139);
+        background-color: #00336f;
         display: block;
         color: #fff;
         text-align: center;
@@ -27,10 +27,8 @@
     }
 
     span#burguer:hover{
-        background-color: #fff;
-        color: rgb(41, 41, 139);
-        
-
+        background-color: #009ddb;
+        color: #fff;
     }
 
 

@@ -31,7 +31,8 @@ span#burguer{
 }
 
 #menu ul li{
-    background-color: aqua;
+    background-color: #00336f;
+    color: #fff;
     text-align: center;
     font-weight: bold;
     padding: 10px;
@@ -41,10 +42,11 @@ span#burguer{
 }
 
 #menu ul li:hover{
-    background-color: cornflowerblue;
+    background-color: #009ddb;
     transition: 0.5s;
 }
 
 #menu ul li a{
     text-decoration: none;
+    color: #fff;
 }
