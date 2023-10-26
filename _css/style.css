@@ -5,15 +5,21 @@
     padding: 0px;
 }
 
+:root {
+
+    --cor1: #fff;
+    --cor2: #009ddb;
+    --cor3: #00336f;
+}
+
 #topo{
     width: 100%;
     height: 15vh;
-    background-color: beige;
+    background-image: linear-gradient(to right, #fff, #009ddb, #00336f)
 }
 
 #img_logo{
     width:25vw;
-    background-size: cover;
 }
 
 span#burguer{
