@@ -15,7 +15,7 @@
 #topo{
     width: 100%;
     height: 15vh;
-    background-image: linear-gradient(to right, #fff, #009ddb, #00336f)
+    background-image: linear-gradient(to right,var(--cor1), var(--cor2), var(--cor3))
 }
 
 #img_logo{
@@ -27,9 +27,8 @@ span#burguer{
 }
 
 #menu{
-    display: flex;
+    display: block;
     width: 100%;
-    flex-direction: column;
 }
 
 #menu ul{
@@ -37,8 +36,10 @@ span#burguer{
 }
 
 #menu ul li{
-    background-color: #00336f;
-    color: #fff;
+    width: 150px;
+    display: inline;
+    background-color: var(--cor3);
+    color: var(--cor1);
     text-align: center;
     font-weight: bold;
     padding: 10px;
@@ -48,8 +49,8 @@ span#burguer{
 }
 
 #menu ul li:hover{
-    background-color: #009ddb;
-    transition: 0.5s;
+    background-color: var(--cor2);
+    transition: 0.7s;
 }
 
 #menu ul li a{

@@ -12,6 +12,18 @@
 
     #menu{
         display: none;
+        width: 99%;
+
+    }
+
+    #menu ul{
+        width: 95%;
+    }
+    #menu ul li{
+        display: block;
+        width: 100%;
+        
+
     }
 
     span#burguer{
@@ -21,6 +33,7 @@
         text-align: center;
         padding: 7px;
         cursor: pointer;
+        transition: 0.7s;
     }
 
     span#burguer:hover{
