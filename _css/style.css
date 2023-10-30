@@ -11,6 +11,9 @@
     --cor2: #009ddb;
     --cor3: #00336f;
 }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 #topo{
     width: 100%;
