@@ -41,4 +41,13 @@
         color: #fff;
     }
 
+    #page-body #banner_normal{
+        display:none;
+        
+    }
+
+    #page-body #banner_menor{
+        display:inline;
+        
+    }
 }

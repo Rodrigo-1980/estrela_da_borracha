@@ -60,3 +60,8 @@ span#burguer{
     text-decoration: none;
     color: #fff;
 }
+
+#page-body #banner_menor{
+    display:none;
+    
+}
