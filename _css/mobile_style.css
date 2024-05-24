@@ -47,7 +47,7 @@
     }
 
     #page-body #banner_menor{
-        display:inline;
+        display:block;
         
     }
 }
