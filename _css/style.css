@@ -4,6 +4,15 @@
 }
 
 #cabecalho_site{
-    background: linear-gradient(to right, #1e90ff, #00bfff, #87cefa, #ffffff);
+    background: linear-gradient(to right, #0367A6, #0378A6, #140742);
+
+}
+
+#cabecalho_site p{
+    float: right;
+    margin: 70px;
+    width: 370px;
+    font-size: 5vh;
+    color: #fff;
 
 }
