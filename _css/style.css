@@ -5,14 +5,20 @@
 
 #cabecalho_site{
     background: linear-gradient(to right, #0367A6, #0378A6, #140742);
+    width: 100%;
 
 }
 
+#cabecalho_site img{
+    width: 50%;
+}
+
 #cabecalho_site p{
+    border: 1px solid black;
     float: right;
-    margin: 70px;
-    width: 370px;
-    font-size: 5vh;
-    color: #fff;
+    margin: 5%;
+    width: 35%;
+    font-size: 2.6vw;
+    color: yellow;
 
 }
