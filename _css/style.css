@@ -1,6 +1,6 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 #cabecalho_site{
@@ -14,7 +14,6 @@
 }
 
 #cabecalho_site p{
-    border: 1px solid black;
     float: right;
     margin: 5%;
     width: 35%;
@@ -25,17 +24,30 @@
 }
 
 #principal #menu{
-    border: 1px solid black;
+    width: 100%;
+    margin-top: 2px;
+    padding: 5px 0px;
+    background-color: #140742;
     
 }
 #principal #menu ul{
-    border: 1px solid black;
     display: flex;
-    text-decoration: none;
-
+    width: 50%;
+    padding: 5px 0px;
+    justify-content: center;
+    text-align: center;
+    background-color:#6aa6be;
+   
 }
 
 #principal #menu ul li{
+    list-style: none;
+    width: 150px;
+}
+
+#principal #menu ul li a{
+    text-decoration: none;
+    width:150px;
    
 }
     
