@@ -6,6 +6,7 @@
 #cabecalho_site{
     background: linear-gradient(to right, #0367A6, #0378A6, #140742);
     width: 100%;
+    height: 10%;
 
 }
 
@@ -13,26 +14,29 @@
     width: 50%;
 }
 
-#cabecalho_site p{
+#cabecalho_site h1{
     float: right;
     margin: 5%;
     width: 35%;
+    height: 50px;
     font-size: 2.6vw;
     color: yellow;
     text-align: center;
+}
 
+#principal #menu-toggle{
+    display: none;
 }
 
 #principal #menu{
     width: 100%;
-    margin-top: 2px;
+    margin-top: 1px;
     padding: 5px 0px;
-    background-color: #140742;
+    background-color: #140742;  
     
 }
 #principal #menu ul{
     display: flex;
-    width: 50%;
     padding: 5px 0px;
     justify-content: center;
     text-align: center;
@@ -48,6 +52,11 @@
 #principal #menu ul li a{
     text-decoration: none;
     width:150px;
+    padding: 5px 0px;
    
+}
+
+#principal #menu ul li:hover{
+    border-bottom: 2px solid #140742;
 }
     

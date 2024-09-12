@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@media (max-width:768px){
+    #cabecalho_site h1{
+
+        height: 10px;
+
+    }
+}
