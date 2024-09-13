@@ -3,6 +3,10 @@
     padding: 0px;
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 #cabecalho_site{
     background: linear-gradient(to right, #0367A6, #0378A6, #140742);
     width: 100%;
@@ -19,12 +23,12 @@
     margin: 5%;
     width: 35%;
     height: 50px;
-    font-size: 2.6vw;
+    font-size: 2.2vw;
     color: yellow;
     text-align: center;
 }
 
-#principal #menu-toggle{
+#principal #menu-responsivo{
     display: none;
 }
 
@@ -47,16 +51,16 @@
 #principal #menu ul li{
     list-style: none;
     width: 150px;
+    padding: 3px 0px;
 }
 
 #principal #menu ul li a{
     text-decoration: none;
     width:150px;
-    padding: 5px 0px;
-   
 }
 
 #principal #menu ul li:hover{
-    border-bottom: 2px solid #140742;
+    box-shadow: 0 2px 0 0#140742;
+    background-color: azure;
 }
     

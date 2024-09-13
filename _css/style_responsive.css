@@ -9,4 +9,10 @@
         height: 10px;
 
     }
+
+    #principal #menu #menu-normal{
+        display: none;
+    }
+
+  
 }
