@@ -8,7 +8,7 @@ body{
 }
 
 #cabecalho_site{
-    background: linear-gradient(to right, #0367A6, #0378A6, #140742);
+    background: #0367A6;
     width: 100%;
     height: 10%;
 
@@ -24,7 +24,7 @@ body{
     width: 35%;
     height: 50px;
     font-size: 2.2vw;
-    color: yellow;
+    color: #ffff00;
     text-align: center;
 }
 
@@ -71,15 +71,22 @@ body{
   }
 
   #principal #am_produtos{
-    border: 1px solid black;
-    /*box-shadow: 10px 10px 15px -5px rgba(0,0,0,0.5);*/
+    
     width: 100%;
-    height: 550px;
+    height: 500px;
+    text-align: center;
+  }
+
+  #principal #am_produtos h3{
+   margin-top: 8px;
+   background: #0367A6;
+   padding: 5px;
+   color: #FFD700;
   }
 
   #principal #am_produtos #env_produtos{
-    border: 1px solid black;
-    width: 100%;
+    
+    width: 98.5%;
     height: 400px;
     display: flex;
     margin: 10px 0px;
@@ -89,6 +96,7 @@ body{
   }
 
   #principal #am_produtos #env_produtos .banner_produtos img{
+    box-shadow: 10px 10px 15px -5px rgba(0,0,0,0.8);
     width: 350px;
     height: 350px;
   }
