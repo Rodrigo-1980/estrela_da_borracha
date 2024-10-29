@@ -82,6 +82,7 @@ body{
    background: #0367A6;
    padding: 5px;
    color: #FFD700;
+   font-size: 2vw;
   }
 
   #principal #am_produtos #env_produtos{
@@ -103,6 +104,8 @@ body{
 
   #rodape_site{
     border: 1px solid black;
+    background-color: #34495E;
+    color: #fff;
     margin: 5px 0px;
     width: 100%;
     height: 200px;
