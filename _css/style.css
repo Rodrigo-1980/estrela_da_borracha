@@ -57,6 +57,7 @@ body{
 #principal #menu ul li a{
     text-decoration: none;
     width:150px;
+    font-weight: bold;
 }
 
 #principal #menu ul li:hover{
@@ -109,4 +110,19 @@ body{
     margin: 5px 0px;
     width: 100%;
     height: 200px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #rodape_site #link_rapidos{
+    border: 1px solid black;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 15px;
+  }
+
+  #rodape_site #link_rapidos a{
+    color: #fff;
+    text-decoration: none;
   }
