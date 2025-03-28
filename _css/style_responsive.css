@@ -38,5 +38,45 @@
     display: block;
   }
 
-  
+  #principal #am_produtos{
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  #principal #am_produtos h3{
+    margin-top: 8px;
+    background: #0367A6;
+    padding: 5px;
+    color: #FFD700;
+    font-size: 2.3vw;
+   }
+
+  #principal #am_produtos #env_produtos{
+    
+    width: 98.5%;
+    height: auto;
+    display: flex;
+    margin: 10px 0px;
+    padding: 10px 0px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #principal #am_produtos #env_produtos .banner_produtos{
+    margin: 15px;
+    width: 200px;
+    height: auto;
+  }
+
+  #principal #am_produtos #env_produtos .banner_produtos img{
+    box-shadow: 10px 10px 15px -5px rgba(0,0,0,0.8);
+    width: 95%;
+    height: auto;
+  }
+
+  #rodape_site{
+    flex-direction: column;
+  }
 }

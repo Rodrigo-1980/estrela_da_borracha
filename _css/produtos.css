@@ -1,0 +1,17 @@
+.linhas_produtos{
+    
+    width: 100%;
+    height: auto;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.linhas_produtos div img{
+    box-shadow: 10px 10px 15px -5px rgba(0,0,0,0.8);
+    margin-top: 25px;
+    width: 300px;
+    height: auto;
+}
