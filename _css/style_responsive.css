@@ -15,6 +15,11 @@
         list-style: none;
     }
 
+    #principal #menu #menu_normal li{
+      margin-left: 35%;
+
+    }
+
     #principal #menu_responsivo{
         margin-left: 45%;
         display: flex;
@@ -33,11 +38,7 @@
         transition: all 0.3s ease;
 
     }
-
-  .show{
-    display: block;
-  }
-
+  
   #principal #am_produtos{
     width: 100%;
     height: auto;
