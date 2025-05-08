@@ -17,6 +17,8 @@
 
     #principal #menu #menu_normal li{
       margin-left: 35%;
+      padding: 10px;
+      border: 1px solid black;
 
     }
 
